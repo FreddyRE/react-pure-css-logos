@@ -1,3 +1,4 @@
+import { AdidasLogo } from "./AdidasLogo"
 import { BracketsLogo } from "./BracketsLogo"
 import { Logo } from "./Logo"
 import "./Logos.css"
@@ -8,7 +9,9 @@ export const Logos  = () => {
             <Logo>
                 <BracketsLogo/>
             </Logo>
-            <Logo />
+            <Logo>
+                <AdidasLogo/>
+            </Logo>
             <Logo />
             <Logo />
             <Logo />

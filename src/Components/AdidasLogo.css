@@ -1,0 +1,29 @@
+.adidas {
+    width: 80%;
+    aspect-ratio: 206/120;
+    position: relative;
+    overflow: hidden;
+}
+
+.shape {
+    width: 23%;
+    height: 126%;
+    background-color: #111;
+    position: absolute;
+    transform: rotate(-31deg);
+}
+
+.s1 {
+    top:72%;
+    left: 18%;
+}
+
+.s2 {
+    top: 38%;
+    left: 40%;
+}
+
+.s3 {
+    top: 4%;
+    left: 63%;
+}
