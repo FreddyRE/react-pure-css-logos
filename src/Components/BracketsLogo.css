@@ -1,0 +1,32 @@
+.brackets {
+    width: 70%;
+    aspect-ratio: 200/175;
+    background-color: white;
+    border-radius: 10.85%;
+    box-shadow: 0 0 0 28px #28a9e1, 0 28px 0 28px #115A91;
+    position: absolute;
+    top: 50%;
+    transform: translateY(calc(-50% - 14px));
+    min-width: 200px;
+}
+
+.brackets::before {
+    content: "";
+    width: 50%;
+    height: 44%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 28px solid #4d4d4d;
+}
+
+.brackets::after {
+    content: "";
+    width: 10%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}

@@ -1,9 +1,9 @@
 import "./Logo.css"
-export const Logo = () =>{
+export const Logo = ({children}) =>{
 
     return(
         <div className="logo">
-            <span>LOGO</span>
+            {children}
         </div>
     )
 }
